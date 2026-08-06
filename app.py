@@ -19,6 +19,8 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 
+# Commit Check
+
 # Load data from csv
 def load_data():
     data = pd.read_csv('datos_energia.csv')
